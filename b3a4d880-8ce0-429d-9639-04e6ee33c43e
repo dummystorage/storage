@@ -1,1 +1,0 @@
-content=++++%3CRequireRoles+roles%3D%22Admin%22%3E%0A++++++++%3Cdiv%3E%0A++++++++++++Only+admin+can+see+this%0A++++++++%3C%2Fdiv%3E%0A++++%3C%2FRequireRoles%3E
