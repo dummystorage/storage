@@ -1,4 +1,4 @@
-reqwest3({
+reqwest4({
     url: 'path/to/data.jsonp?foo=bar'
   , type: 'jsonp'
   , jsonpCallback: 'foo'
