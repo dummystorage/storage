@@ -1,0 +1,9 @@
+reqwest({
+    url: 'path/to/data.jsonp?foo=bar'
+  , type: 'jsonp'
+  , jsonpCallback: 'foo'
+  , jsonpCallbackName: 'bar'
+  , success: function (resp) {
+      qwery('#content').html(resp.content)
+    }
+})
